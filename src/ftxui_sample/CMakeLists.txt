@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE session_time_cap::session_time_cap_options
+          session_time_cap::session_time_cap_warnings)
 
 target_link_system_libraries(
   intro

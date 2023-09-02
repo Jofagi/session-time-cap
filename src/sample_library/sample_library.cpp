@@ -1,4 +1,4 @@
-#include <myproject/sample_library.hpp>
+#include <session_time_cap/sample_library.hpp>
 
 int factorial(int input) noexcept
 {
