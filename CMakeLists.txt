@@ -104,7 +104,7 @@ include(cmake/PackageProject.cmake)
 # we know we want to ship
 session_time_cap_package_project(
   TARGETS
-  intro
+  stc_gui
   session_time_cap_options
   session_time_cap_warnings
   # FIXME: this does not work! CK

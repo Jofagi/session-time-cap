@@ -32,8 +32,8 @@ function(session_time_cap_setup_dependencies)
     cpmaddpackage("gh:CLIUtils/CLI11@2.3.2")
   endif()
 
-  if(NOT TARGET ftxui::screen)
-    cpmaddpackage("gh:ArthurSonzogni/FTXUI@5.0.0")
+  if(NOT TARGET wxWidgets)
+    cpmaddpackage("gh:wxWidgets/wxWidgets@3.2.2.1")
   endif()
 
   if(NOT TARGET tools::tools)
