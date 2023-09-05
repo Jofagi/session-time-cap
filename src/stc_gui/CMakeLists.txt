@@ -3,6 +3,8 @@ add_executable(stc_gui app.cpp frame.cpp)
 target_link_libraries(stc_gui PRIVATE session_time_cap::session_time_cap_options
                                       session_time_cap::session_time_cap_warnings)
 
+target_compile_definitions(stc_gui PRIVATE STC_GUI_VERSION="${PROJECT_VERSION}")
+
 target_link_system_libraries(
   stc_gui
   PRIVATE
